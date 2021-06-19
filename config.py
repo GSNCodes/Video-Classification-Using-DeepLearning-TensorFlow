@@ -1,0 +1,13 @@
+
+
+SEED_CONSTANT = 23
+CLASSES_LIST = ["WalkingWithDog", "Basketball", "Biking", "PushUps"]
+NUM_CLASSES = len(CLASSES_LIST)
+
+IMG_HEIGHT = 64
+IMG_WIDTH  = 64
+MAX_IMGS_PER_CLASS = 10 # 8000
+DATA_DIR = "UCF50/"
+
+NUM_EPOCHS = 5 # 50
+BATCH_SIZE = 4
