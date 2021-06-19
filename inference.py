@@ -20,7 +20,7 @@ if __name__ == "__main__":
     # input_video_file_path = f'{output_directory}/{video_title}.mp4'
 
     input_video_file_path = 'video_test/combined-test.mp4'
-    video_title = 'basket-ball'
+    video_title = 'Final'
 
     window_size = 1
     output_video_file_path = f'{output_directory}/{video_title}-Output-WSize-{window_size}.mp4'
