@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # video_title = download_from_youtube(video_url, output_directory)
     # input_video_file_path = f'{output_directory}/{video_title}.mp4'
 
-    input_video_file_path = 'video_test/basket-ball-test.avi'
+    input_video_file_path = 'video_test/combined-test.mp4'
     video_title = 'basket-ball'
 
     window_size = 1
@@ -33,5 +33,6 @@ if __name__ == "__main__":
 
 
     # To get a single prediction for the entire video
+    input_single_video_file_path = 'video_test/basket-ball-test.avi'
     predictions_frames_count = 50
-    make_average_predictions(model, input_video_file_path, predictions_frames_count)
+    make_average_predictions(model, input_single_video_file_path, predictions_frames_count)
