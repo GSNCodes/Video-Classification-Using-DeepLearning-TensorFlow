@@ -37,3 +37,15 @@ Training Loss Plot:-
 ![Loss Plot](misc/Figure_1.png)  
 Training Accuracy Plot:-  
 ![Accuracy Plot](misc/Figure_2.png)
+
+## Sample Output
+
+#### Input
+![Input Video](misc/input-test.gif)
+#### Output - Window Size - 1
+![Output 1](misc/video-1.gif)
+#### Output - Window Size - 25
+![Output 2](misc/video-2.gif)  
+  
+    
+    
