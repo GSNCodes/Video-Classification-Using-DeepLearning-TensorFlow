@@ -29,6 +29,7 @@ Trampoline Jumping, Playing Violin, Volleyball Spiking, Walking with a dog, and 
 * `utils.py` contains all the utility functions such as plotting metrics, downloading from YouTube, performing inference in various modes, etc.
 * `video_classifier.py` contains the code to train the model.
 * `inference.py` contains the code to perform inference in differnt modes. We can also change the average no. of frames to perform inference.  
+* For training I have used only 4 of the available 50 classes, namely - "WalkingWithDog", "Basketball", "Biking" and "PushUps". You can train on the entire training data by modifying the corresponding parameters in the `config.py` file.
 
 ## Plots
 Our model structure:-  
